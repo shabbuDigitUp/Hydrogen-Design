@@ -2,13 +2,13 @@
   "debug": false,
   "mediaWarnings": false,
   "input": [
-    "path/to/project/markup/folder"
+    "public/"
   ],
   "output": [
-    "path/to/styles/output/folder"
+    "src/style"
   ],
   "folders": {
-    "markup": "public/index.html",
+    "markup": "public/",
     "scripts": "src/scripts",
     "styles": "src/style"
   },
