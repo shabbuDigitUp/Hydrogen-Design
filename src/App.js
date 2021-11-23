@@ -1,0 +1,56 @@
+//import logo from './logo.svg';
+import './styles/hydrogen.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header data-h2-padding="b(all, m)" data-h2-bg-color="b(black)" data-h2-font-color="b(white)">
+      Header Section
+    </header>
+    <main data-h2-padding="b(right-left, m)">
+      <h1 data-h2-margin="b(top, l)">Welcome to <span data-h2-font-color="b(white)">Hydrogen!</span></h1>
+      <div data-h2-flex-grid="b(top, expanded, flush, m)">
+        <div data-h2-flex-item="b(1of1) s(1of3) m(1of4)">
+          <div data-h2-bg-color="b(black)" data-h2-font-color="b(white)" data-h2-padding="b(all, l)">
+            <h2 data-h2-margin="b(top, none)" data-h2-font-color="b(custom)">Article 1</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to make a type</p>
+            <button data-h2-location="b(top-right, m)">Read more</button>
+          </div>
+        </div>
+        <div data-h2-flex-item="b(1of1) s(1of3) m(1of4)">
+          <div data-h2-bg-color="b(black)" data-h2-font-color="b(white)" data-h2-padding="b(all, l)">
+            <h2 data-h2-margin="b(top, none)">Article 2</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to make a type</p>
+            <button>Read more</button>
+          </div>
+        </div>
+        <div data-h2-flex-item="b(1of1) s(1of3) m(1of4)">
+          <div data-h2-bg-color="b(black)" data-h2-font-color="b(white)" data-h2-padding="b(all, l)">
+            <h2 data-h2-margin="b(top, none)">Article 3</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to make a type</p>
+            <button>Read more</button>
+          </div>
+        </div>
+
+        <div data-h2-flex-item="b(1of1) s(1of3) m(1of4)">
+          <div data-h2-bg-color="b(black)" data-h2-font-color="b(white)" data-h2-padding="b(all, l)">
+            <h2 data-h2-margin="b(top, none)">Article 4</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to make a type</p>
+            <button>Read more</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer data-h2-text-align="b(center)" data-h2-margin="b(top, m)" data-h2-padding="b(top-bottom, m) m(all, l)"
+      data-h2-bg-color="b(black)" data-h2-font-color="b(white)">
+      Footer Section
+    </footer>
+    </div>
+  );
+}
+
+export default App;

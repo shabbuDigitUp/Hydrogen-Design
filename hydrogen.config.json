@@ -1,20 +1,20 @@
 {
-  "debug": false,
+  "debug": true,
   "mediaWarnings": false,
   "input": [
-    "public/"
+    "public"
   ],
   "output": [
-    "src/style"
+    "src/styles"
   ],
   "folders": {
-    "markup": "public/",
-    "scripts": "src/scripts",
-    "styles": "src/style"
+    "markup": "public",
+    "scripts": "src/script",
+    "styles": "src/styles"
   },
   "variables": {
     "sass": {
-      "enabled": "false"
+      "enabled": "true"
     }
   },
   "borderWeights": [
@@ -87,14 +87,6 @@
         "enabled": "false"
       },
       "opacities": []
-    },
-    {
-      "key": "custom",
-      "color": "#ffff33",
-      "variants": {
-        "enabled": "false"
-      },
-      "opacities": []
     }
   ],
   "containers": [
@@ -116,7 +108,7 @@
     }
   ],
   "flexgrid": {
-    "enabled": true,
+    "enabled": false,
     "columns": 12
   },
   "fonts": [
